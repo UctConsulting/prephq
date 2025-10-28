@@ -1,0 +1,79 @@
+.navstrip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  height: 42px;
+  background: #57cc99;
+  position: sticky;
+  top: 80px;
+  z-index: 999;
+}
+.navstrip::-webkit-scrollbar {
+  display: none;
+}
+.navstrip ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.navstrip .navstrip-link {
+  display: inline-block;
+  color: #fff;
+  font-family: "Merriweather Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.navstrip .navstrip-link:hover {
+  color: #074568;
+}
+.navstrip-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.navstrip-wrapper .scroll-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #074568;
+  border-radius: 50%;
+  border: none;
+  min-width: 25px;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.navstrip-wrapper .scroll-btn.left {
+  left: 0;
+  box-shadow: 10px 0 0 #57cc99;
+}
+
+.navstrip-wrapper .scroll-btn.right {
+  right: 0;
+  box-shadow: -10px 0 0 #57cc99;
+}
+
+@media (max-width: 767px) {
+  .navstrip{
+    position: relative;
+    top: 0;
+    z-index: 0;
+  }
+}
