@@ -26,6 +26,7 @@ import ProfileEdit from './pages/profileedit/Profileedit';
 import AdminLogin from './pages/admin/Login';
 import Dashboard from './pages/admin/Dashboard';
 import DataSciencePage from './pages/domain/dataScience/DataScience';
+import EmbeddedAndIOTPage from './pages/domain/embeddedAndIOT/EmbeddedAndIOT'
 
 
 import { ToastContainer } from 'react-toastify';
@@ -96,6 +97,7 @@ function App() {
 
         {/* Domains */}
         <Route path="/data-science" element={<DataSciencePage />} />
+        <Route path="/embedded-and-iot" element={<EmbeddedAndIOTPage />} />
 
         <Route path="*" element={<Error404 />} />
       </Routes>

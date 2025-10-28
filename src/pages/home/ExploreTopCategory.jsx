@@ -216,6 +216,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+       href: "/embedded-and-iot"
     },
     // Artificial Intelligence
     {
