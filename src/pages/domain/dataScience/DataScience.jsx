@@ -5,6 +5,7 @@ import { SmartToolsSuite } from '../../../pages/home/SmartTools'
 import contactSideImg from '../../../assets/img/contact/sendus-side-image.webp';
 import DomainBannerImg from '../../../assets/img/domains/data_science_banner.png';
 import '../../home/home.css'
+import HeroSectionBG from '/src/assets/img/domains/hero_section_background.png'
 
 const Domain = () => {
     return (
@@ -12,9 +13,11 @@ const Domain = () => {
 
             {/* Hero Section */}
             <div className='hero-section'>
-                <div className='hero-section-bg' style={{ "background-size": "cover",
-    "background-image": "url(/src/assets/img/domains/hero_section_background.png)"}} ></div>
-                <section className="hero-section container" style={{padding :"0 80px"}}>
+                <div className='hero-section-bg' style={{
+                    "background-size": "cover",
+                    "background-image": `url(${HeroSectionBG})`
+                }} ></div>
+                <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
                         <h1 className="hero-title">Your Data Science Launchpad</h1>
                         <p className="hero-description">

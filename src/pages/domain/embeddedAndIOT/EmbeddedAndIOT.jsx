@@ -4,6 +4,7 @@ import '../domain.css'
 import { SmartToolsSuite } from '../../../pages/home/SmartTools'
 import contactSideImg from '../../../assets/img/contact/sendus-side-image.webp';
 import DomainBannerImg from '../../../assets/img/domains/data_science_banner.png';
+import HeroSectionBG from '/src/assets/img/domains/hero_section_background.png'
 import '../../home/home.css'
 
 const Domain = () => {
@@ -14,7 +15,7 @@ const Domain = () => {
             <div className='hero-section'>
                 <div className='hero-section-bg' style={{
                     "background-size": "cover",
-                    "background-image": "url(/src/assets/img/domains/hero_section_background.png)"
+                    "background-image": `url(${HeroSectionBG})`
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
