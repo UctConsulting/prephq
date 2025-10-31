@@ -20,10 +20,9 @@ const SystemDesign = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Data Science Launchpad</h1>
+                        <h1 className="hero-title">Your System Design Launchpad</h1>
                         <p className="hero-description">
-                            Start your Data Science journey right here. Learn, practice, and land your dream job
-                            with our easy-to-follow guides and tutorials.
+                            System Design is the art of planning scalable, reliable software architectures for real-world applications. Think of it as blueprinting a city's infrastructure—balancing components like servers, databases, and networks to handle users, data, and performance demands efficiently. It requires understanding trade-offs in tech stacks and user needs.
                         </p>
                     </div>
                     <div className="hero-illustration">
@@ -37,11 +36,9 @@ const SystemDesign = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Data Science?</h2>
+                        <h2 className="section-title">What is System Design?</h2>
                         <p className="section-description">
-                            Data Science is all about using data to solve real-world problems. Think of it like
-                            being a detective! You collect clues (data), analyze them, and use them to make smart
-                            decisions or predictions. It mixes skills from programming, math, and business knowledge
+                            System Design is the art of planning scalable, reliable software architectures for real-world applications. Think of it as blueprinting a city's infrastructure—balancing components like servers, databases, and networks to handle users, data, and performance demands efficiently. It requires understanding trade-offs in tech stacks and user needs.
                         </p>
                     </div>
 
@@ -51,13 +48,13 @@ const SystemDesign = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
+                                    <strong>Microservices Shift:</strong> Breaking apps into small, independent services for flexibility.
                                 </li>
                                 <li>
-                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
+                                    <strong>Serverless Computing:</strong> Platforms like AWS Lambda reduce infrastructure management.
                                 </li>
                                 <li>
-                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
+                                    <strong>Sustainability Focus:</strong> Designing energy-efficient systems to cut cloud costs and emissions.
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +63,16 @@ const SystemDesign = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is Data Science Going?</h3>
+                            <h3 className="trend-title">Where is System Design Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>More Automation:</strong> Machines will do simple data work.
+                                    <strong>Edge Computing Designs:</strong> Systems that process data near users for low latency.
                                 </li>
                                 <li>
-                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
+                                    <strong>AI-Optimized Architectures:</strong> Building for machine learning workloads at scale.
                                 </li>
                                 <li>
-                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
+                                    <strong>Zero-Trust Integration:</strong> Embedding security by default in every design layer.
                                 </li>
                             </ul>
                         </div>
@@ -92,8 +89,7 @@ const SystemDesign = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Need to master a new tool? Our tutorials break down complex topics into small,
-                                    easy steps. You don't need to be a coding genius to start!
+                                    Want to design your first scalable app? Our tutorials simplify intricate design principles into digestible, building-block steps. Beginner accessible!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -104,8 +100,7 @@ const SystemDesign = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Stop guessing what they'll ask! We've collected the most common and tricky
-                                    interview questions from top tech companies.
+                                    Banish the unknowns! We've gathered standard and in-depth questions from system design interviews at top firms.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -116,8 +111,7 @@ const SystemDesign = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
-                                    quick review or when you just need the essentials.
+                                    Our Mini-Guides deliver focused overviews of essential design patterns. Great for rapid insights or foundational grasp.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -128,8 +122,7 @@ const SystemDesign = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                    The best way to learn is by doing! Work through our guided projects to build an
-                                    impressive portfolio that hiring managers will love.
+                                    Mastery comes from building! Engage in our guided projects to architect full systems that demonstrate your capabilities to recruiters.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -140,8 +133,7 @@ const SystemDesign = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
-                                    code to a clear career roadmap."
+                                    Feeling directionless? Our Learning Map charts a structured journey, from core principles to complex distributed systems and job readiness.
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -154,7 +146,7 @@ const SystemDesign = () => {
             <section className="tools-section">
                 <div className="container smart-tools">
                     <h2 className="tools-heading">
-                        Handy Tools for Your <span className="highlight">Data Science Journey</span>
+                        Handy Tools for Your <span className="highlight">System Design Journey</span>
                     </h2>
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.

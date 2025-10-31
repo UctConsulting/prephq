@@ -358,9 +358,9 @@ export default function Home() {
           </p>
           <div className="items">
             {exploreData.map((item, index) => (
-              <div className="item" key={index}>
+              <div className="item" style={{cursor :"pointer"}} key={index} onClick={()=> window.open(item.url, '_blank', 'noopener,noreferrer')}>
                 <p>{item.title}</p>
-                <Link to={`${item.url}`} className="arrowbtn" target="_blank" rel="noopener noreferrer">
+                <div className="arrowbtn">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -375,7 +375,7 @@ export default function Home() {
                       />
                     </svg>
                   </span>
-                </Link>
+                </div>
               </div>
             ))}
           </div>

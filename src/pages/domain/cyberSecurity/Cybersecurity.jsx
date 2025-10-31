@@ -20,10 +20,9 @@ const Cybersecurity = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Data Science Launchpad</h1>
+                        <h1 className="hero-title">Your Cybersecurity Launchpad</h1>
                         <p className="hero-description">
-                            Start your Data Science journey right here. Learn, practice, and land your dream job
-                            with our easy-to-follow guides and tutorials.
+                            Cybersecurity involves protecting systems, networks, and data from digital attacks. It's like being a digital guardian, identifying threats, building defenses, and responding to breaches to keep information safe. It draws on technology, policies, and ethics to safeguard everything from personal devices to global infrastructures.
                         </p>
                     </div>
                     <div className="hero-illustration">
@@ -37,11 +36,9 @@ const Cybersecurity = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Data Science?</h2>
+                        <h2 className="section-title">What is Cybersecurity?</h2>
                         <p className="section-description">
-                            Data Science is all about using data to solve real-world problems. Think of it like
-                            being a detective! You collect clues (data), analyze them, and use them to make smart
-                            decisions or predictions. It mixes skills from programming, math, and business knowledge
+                            Cybersecurity involves protecting systems, networks, and data from digital attacks. It's like being a digital guardian, identifying threats, building defenses, and responding to breaches to keep information safe. It draws on technology, policies, and ethics to safeguard everything from personal devices to global infrastructures.
                         </p>
                     </div>
 
@@ -51,13 +48,13 @@ const Cybersecurity = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
+                                    <strong>Ransomware:</strong> Locks data and demands payment.
                                 </li>
                                 <li>
-                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
+                                    <strong>Zero Trust:</strong> Always verify to stop insider risks.
                                 </li>
                                 <li>
-                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
+                                    <strong>AI Threats:</strong> Hackers use AI for smarter attacks.
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +63,16 @@ const Cybersecurity = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is Data Science Going?</h3>
+                            <h3 className="trend-title">Where is Cybersecurity Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>More Automation:</strong> Machines will do simple data work.
+                                    <strong>Quantum Security:</strong> Protects data from future quantum hacks.
                                 </li>
                                 <li>
-                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
+                                    <strong>IoT Safety:</strong> Secures smart devices at home and work.
                                 </li>
                                 <li>
-                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
+                                    <strong>AI Defense:</strong> Stops threats before they happen.
                                 </li>
                             </ul>
                         </div>
@@ -92,8 +89,7 @@ const Cybersecurity = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Need to master a new tool? Our tutorials break down complex topics into small,
-                                    easy steps. You don't need to be a coding genius to start!
+                                    Curious about ethical hacking? Our tutorials unpack complex security concepts into simple, progressive steps. No IT degree necessary!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -104,8 +100,7 @@ const Cybersecurity = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Stop guessing what they'll ask! We've collected the most common and tricky
-                                    interview questions from top tech companies.
+                                    End the uncertainty! We've assembled key and advanced questions from cybersecurity roles at major organizations.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -116,8 +111,7 @@ const Cybersecurity = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
-                                    quick review or when you just need the essentials.
+                                    Our Mini-Guides provide compact overviews of critical security topics. Ideal for swift refreshers or essential knowledge grabs.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -128,8 +122,7 @@ const Cybersecurity = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                    The best way to learn is by doing! Work through our guided projects to build an
-                                    impressive portfolio that hiring managers will love.
+                                    Real skills come from action! Join our guided projects to simulate defenses, audits, and responses that employers value.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -140,8 +133,7 @@ const Cybersecurity = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
-                                    code to a clear career roadmap."
+                                    Not sure how to start? Our Learning Map outlines a clear progression, from basic threats to advanced certifications and career entry.
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -154,7 +146,7 @@ const Cybersecurity = () => {
             <section className="tools-section">
                 <div className="container smart-tools">
                     <h2 className="tools-heading">
-                        Handy Tools for Your <span className="highlight">Data Science Journey</span>
+                        Handy Tools for Your <span className="highlight">Cybersecurity Journey</span>
                     </h2>
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.

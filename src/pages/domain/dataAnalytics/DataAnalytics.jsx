@@ -20,10 +20,9 @@ const DataAnalytics = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Data Science Launchpad</h1>
+                        <h1 className="hero-title">Your Data Analytics Launchpad</h1>
                         <p className="hero-description">
-                            Start your Data Science journey right here. Learn, practice, and land your dream job
-                            with our easy-to-follow guides and tutorials.
+                            Data Analytics is extracting insights from data to inform decisions and solve problems. It's akin to being a data storyteller—gathering numbers, spotting trends, and turning them into actionable stories for businesses or research. It uses tools like Python, Excel, and visualization software to process and interpret information.
                         </p>
                     </div>
                     <div className="hero-illustration">
@@ -37,11 +36,9 @@ const DataAnalytics = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Data Science?</h2>
+                        <h2 className="section-title">What is Data Analytics?</h2>
                         <p className="section-description">
-                            Data Science is all about using data to solve real-world problems. Think of it like
-                            being a detective! You collect clues (data), analyze them, and use them to make smart
-                            decisions or predictions. It mixes skills from programming, math, and business knowledge
+                            Data Analytics is extracting insights from data to inform decisions and solve problems. It's akin to being a data storyteller—gathering numbers, spotting trends, and turning them into actionable stories for businesses or research. It uses tools like Python, Excel, and visualization software to process and interpret information.
                         </p>
                     </div>
 
@@ -51,13 +48,13 @@ const DataAnalytics = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
+                                    <strong>Real-Time Analytics:</strong> Streaming tools process live data for instant decisions.
                                 </li>
                                 <li>
-                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
+                                    <strong>No-Code Platforms:</strong> Tools like Tableau empower non-tech users to analyze data.
                                 </li>
                                 <li>
-                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
+                                    <strong>Data Democratization:</strong> Making analytics accessible across teams, not just experts.
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +63,16 @@ const DataAnalytics = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is Data Science Going?</h3>
+                            <h3 className="trend-title">Where is Data Analytics Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>More Automation:</strong> Machines will do simple data work.
+                                    <strong>Augmented Analytics:</strong> AI automates insights and natural language querying.
                                 </li>
                                 <li>
-                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
+                                    <strong>Privacy-Preserving Tech:</strong> Federated learning for analytics without data sharing.
                                 </li>
                                 <li>
-                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
+                                    <strong>Sustainability Metrics:</strong> Tracking eco-impacts through advanced data tools.
                                 </li>
                             </ul>
                         </div>
@@ -92,8 +89,7 @@ const DataAnalytics = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Need to master a new tool? Our tutorials break down complex topics into small,
-                                    easy steps. You don't need to be a coding genius to start!
+                                    Ready to visualize your first dataset? Our tutorials unpack analytics techniques into simple, progressive modules. No coding expertise required!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -104,8 +100,7 @@ const DataAnalytics = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Stop guessing what they'll ask! We've collected the most common and tricky
-                                    interview questions from top tech companies.
+                                    Cut through the haze! We've compiled frequent and sophisticated questions from analytics positions at prominent organizations.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -116,8 +111,7 @@ const DataAnalytics = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
-                                    quick review or when you just need the essentials.
+                                    Our Mini-Guides provide tight summaries of crucial analytics methods. Ideal for quick dives or core topic refreshers.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -128,8 +122,7 @@ const DataAnalytics = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                    The best way to learn is by doing! Work through our guided projects to build an
-                                    impressive portfolio that hiring managers will love.
+                                    True learning happens in practice! Dive into our guided projects to perform real analyses and build compelling case studies for your resume.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -140,8 +133,7 @@ const DataAnalytics = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
-                                    code to a clear career roadmap."
+                                    Overwhelmed by options? Our Learning Map delivers a tailored roadmap, from data basics to advanced forecasting and professional entry.
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -154,7 +146,7 @@ const DataAnalytics = () => {
             <section className="tools-section">
                 <div className="container smart-tools">
                     <h2 className="tools-heading">
-                        Handy Tools for Your <span className="highlight">Data Science Journey</span>
+                        Handy Tools for Your <span className="highlight">Data Analytics Journey</span>
                     </h2>
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.

@@ -20,14 +20,13 @@ const DatabaseManagement = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Data Science Launchpad</h1>
+                        <h1 className="hero-title">Your Database Management Launchpad</h1>
                         <p className="hero-description">
-                            Start your Data Science journey right here. Learn, practice, and land your dream job
-                            with our easy-to-follow guides and tutorials.
+                            Database Management is the process of organizing, storing, and retrieving data efficiently and securely. It's like being the architect of a digital library—designing structures for information, ensuring quick access, and protecting it from errors or threats. It involves tools like SQL, NoSQL, and systems to handle everything from customer records to big data analytics.
                         </p>
                     </div>
                     <div className="hero-illustration">
-                        <img src={DomainBannerImg} alt="data-science" />
+                        <img src={DomainBannerImg} alt="database-management" />
                         {/* Illustration placeholder */}
                     </div>
                 </section>
@@ -37,11 +36,9 @@ const DatabaseManagement = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Data Science?</h2>
+                        <h2 className="section-title">What is Database Management?</h2>
                         <p className="section-description">
-                            Data Science is all about using data to solve real-world problems. Think of it like
-                            being a detective! You collect clues (data), analyze them, and use them to make smart
-                            decisions or predictions. It mixes skills from programming, math, and business knowledge
+                            Database Management is the process of organizing, storing, and retrieving data efficiently and securely. It's like being the architect of a digital library—designing structures for information, ensuring quick access, and protecting it from errors or threats. It involves tools like SQL, NoSQL, and systems to handle everything from customer records to big data analytics.
                         </p>
                     </div>
 
@@ -51,13 +48,13 @@ const DatabaseManagement = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
+                                    <strong>Cloud Databases:</strong> Services like AWS RDS enable scalable, on-demand storage.
                                 </li>
                                 <li>
-                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
+                                    <strong>Vector Databases:</strong> Rising for AI apps, storing embeddings for fast similarity searches.
                                 </li>
                                 <li>
-                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
+                                    <strong>Data Privacy Laws:</strong> Regulations like GDPR demand robust security and compliance.
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +63,16 @@ const DatabaseManagement = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is Data Science Going?</h3>
+                            <h3 className="trend-title">Where is Database Management Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>More Automation:</strong> Machines will do simple data work.
+                                    <strong>Autonomous Databases:</strong> Self-managing systems that auto-tune and secure data.
                                 </li>
                                 <li>
-                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
+                                    <strong>Edge Databases:</strong> Handling data closer to sources for IoT and real-time apps.
                                 </li>
                                 <li>
-                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
+                                    <strong>AI-Integrated Queries:</strong> Natural language tools to query databases conversationally.
                                 </li>
                             </ul>
                         </div>
@@ -92,8 +89,7 @@ const DatabaseManagement = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Need to master a new tool? Our tutorials break down complex topics into small,
-                                    easy steps. You don't need to be a coding genius to start!
+                                    Interested in SQL queries? Our tutorials break down database concepts into straightforward, sequential lessons. No prior experience needed!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -104,8 +100,7 @@ const DatabaseManagement = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Stop guessing what they'll ask! We've collected the most common and tricky
-                                    interview questions from top tech companies.
+                                    Remove the doubt! We've collected core and complex questions from database roles at leading companies.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -116,8 +111,7 @@ const DatabaseManagement = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
-                                    quick review or when you just need the essentials.
+                                    Our Mini-Guides offer succinct summaries of vital database topics. Perfect for on-the-spot reviews or key essentials.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -128,8 +122,7 @@ const DatabaseManagement = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                    The best way to learn is by doing! Work through our guided projects to build an
-                                    impressive portfolio that hiring managers will love.
+                                    Gain expertise through doing! Work on our guided projects to design and manage real databases that attract employers.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -140,8 +133,7 @@ const DatabaseManagement = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
-                                    code to a clear career roadmap."
+                                    Unclear on the route? Our Learning Map maps out a logical progression, from basic schemas to advanced optimization and career prep.
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -154,7 +146,7 @@ const DatabaseManagement = () => {
             <section className="tools-section">
                 <div className="container smart-tools">
                     <h2 className="tools-heading">
-                        Handy Tools for Your <span className="highlight">Data Science Journey</span>
+                        Handy Tools for Your <span className="highlight">Database Management Journey</span>
                     </h2>
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.

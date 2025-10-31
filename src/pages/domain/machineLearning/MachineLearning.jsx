@@ -20,10 +20,9 @@ const MachineLearning = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Data Science Launchpad</h1>
+                        <h1 className="hero-title">Your Machine Learning Launchpad</h1>
                         <p className="hero-description">
-                            Start your Data Science journey right here. Learn, practice, and land your dream job
-                            with our easy-to-follow guides and tutorials.
+                            Machine Learning is a branch of AI where computers learn patterns from data to make predictions or decisions without explicit programming. Think of it as teaching a machine to improve from experience, like recommending movies on Netflix or detecting spam in emails.
                         </p>
                     </div>
                     <div className="hero-illustration">
@@ -37,11 +36,9 @@ const MachineLearning = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Data Science?</h2>
+                        <h2 className="section-title">What is Machine Learning?</h2>
                         <p className="section-description">
-                            Data Science is all about using data to solve real-world problems. Think of it like
-                            being a detective! You collect clues (data), analyze them, and use them to make smart
-                            decisions or predictions. It mixes skills from programming, math, and business knowledge
+                            Machine Learning is a branch of AI where computers learn patterns from data to make predictions or decisions without explicit programming. Think of it as teaching a machine to improve from experience, like recommending movies on Netflix or detecting spam in emails.
                         </p>
                     </div>
 
@@ -51,13 +48,13 @@ const MachineLearning = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
+                                    <strong>Large Language Models:</strong> Power chatbots and understand human language.
                                 </li>
                                 <li>
-                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
+                                    <strong>AutoML:</strong> Makes model building simple for all users.
                                 </li>
                                 <li>
-                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
+                                    <strong>Responsible ML:</strong> Focus on fairness and clear, explainable AI.
                                 </li>
                             </ul>
                         </div>
@@ -66,16 +63,16 @@ const MachineLearning = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is Data Science Going?</h3>
+                            <h3 className="trend-title">Where is Machine Learning Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>More Automation:</strong> Machines will do simple data work.
+                                    <strong>Federated Learning:</strong> Trains AI without sharing private data.
                                 </li>
                                 <li>
-                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
+                                    <strong>Edge ML:</strong> Runs on phones and IoT devices for quick results.
                                 </li>
                                 <li>
-                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
+                                    <strong>Hybrid AI:</strong> Mixes machine learning with human knowledge for better accuracy.
                                 </li>
                             </ul>
                         </div>
@@ -92,8 +89,7 @@ const MachineLearning = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Need to master a new tool? Our tutorials break down complex topics into small,
-                                    easy steps. You don't need to be a coding genius to start!
+                                    Eager to build your first model? Our tutorials demystify ML algorithms into easy, sequential lessons. Beginner-friendly, no deep stats knowledge required!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -104,8 +100,7 @@ const MachineLearning = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Stop guessing what they'll ask! We've collected the most common and tricky
-                                    interview questions from top tech companies.
+                                    Skip the guesswork! We've curated essential and advanced questions from ML positions at top tech firms.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -116,8 +111,7 @@ const MachineLearning = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
-                                    quick review or when you just need the essentials.
+                                    Our Mini-Guides deliver bite-sized summaries on key ML concepts. Perfect for fast reviews or foundational overviews.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -128,8 +122,7 @@ const MachineLearning = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                    The best way to learn is by doing! Work through our guided projects to build an
-                                    impressive portfolio that hiring managers will love.
+                                    Practice makes perfect! Engage with our guided projects to create ML solutions that showcase your skills to employers.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -140,8 +133,7 @@ const MachineLearning = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
-                                    code to a clear career roadmap."
+                                    Lost on the next step? Our Learning Map charts a precise journey, from basic data handling to deploying ML models and landing roles.
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -154,7 +146,7 @@ const MachineLearning = () => {
             <section className="tools-section">
                 <div className="container smart-tools">
                     <h2 className="tools-heading">
-                        Handy Tools for Your <span className="highlight">Data Science Journey</span>
+                        Handy Tools for Your <span className="highlight">Machine Learning Journey</span>
                     </h2>
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.
