@@ -26,7 +26,7 @@ export const SmartToolsSuite = () => {
       bgImage: salaryPredictor,
       title: "Salary Predictor",
       desc: "Check out the salary checker to help you grow your career! It's a handy tool that provides helpful information to improve your job prospects and earnings.",
-      url: "https://www.upskillcampus.com/salary-predictor",
+      url: "https://www.theiotacademy.co/salary-predictor",
     },
     {
       bgImage: mira,

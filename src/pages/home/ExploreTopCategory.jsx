@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { href, useNavigate } from 'react-router-dom';
 
 const ExploreTopCategory = () => {
   const scrollRef = useRef(null);
@@ -247,6 +247,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href: "artificial-intelligence"
     },
     // Machine Learning
     {
@@ -273,6 +274,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href:"machine-learning"
     },
     // cybersecurity
     {
@@ -315,6 +317,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href:"cyber-security"
     },
     // database management
     {
@@ -345,6 +348,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href:"database-management"
     },
     // System design
     {
@@ -375,6 +379,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href:"system-design"
     },
     // Data Analytics
     {
@@ -409,6 +414,7 @@ const ExploreTopCategory = () => {
           />
         </svg>
       ),
+      href:"data-analytics"
     },
   ];
 

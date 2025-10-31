@@ -27,6 +27,12 @@ import AdminLogin from './pages/admin/Login';
 import Dashboard from './pages/admin/Dashboard';
 import DataSciencePage from './pages/domain/dataScience/DataScience';
 import EmbeddedAndIOTPage from './pages/domain/embeddedAndIOT/EmbeddedAndIOT'
+import ArtificialIntelligence from './pages/domain/artificialIntelligence/ArtificialIntelligence'
+import MachineLearning from './pages/domain/machineLearning/MachineLearning'
+import CyberSecurity from './pages/domain/cyberSecurity/Cybersecurity'
+import DatabaseManagement from './pages/domain/databaseManagement/DatabaseManagement'
+import SystemDesign from './pages/domain/systemDesign/SystemDesign'
+import DataAnalytics from './pages/domain/dataAnalytics/DataAnalytics'
 
 
 import { ToastContainer } from 'react-toastify';
@@ -98,6 +104,12 @@ function App() {
         {/* Domains */}
         <Route path="/data-science" element={<DataSciencePage />} />
         <Route path="/embedded-and-iot" element={<EmbeddedAndIOTPage />} />
+        <Route path="/artificial-intelligence" element={<ArtificialIntelligence />} />
+        <Route path="/machine-learning" element={<MachineLearning />} />
+        <Route path="/cyber-security" element={<CyberSecurity />} />
+        <Route path="/database-management" element={<DatabaseManagement />} />
+        <Route path="/system-design" element={<SystemDesign />} />
+        <Route path="/data-analytics" element={<DataAnalytics />} />
 
         <Route path="*" element={<Error404 />} />
       </Routes>

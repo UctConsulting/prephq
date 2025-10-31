@@ -49,10 +49,10 @@ const statsData = [
 ];
 
 const exploreData = [
-  { title: "Your Roadmap to Success" },
-  { title: "Mock Interviews" },
-  { title: "Mini Guides & Cheat Sheets" },
-  { title: "Project Library" },
+  // { title: "Your Roadmap to Success" },
+  { title: "Mock Interviews", url: "https://www.mira.upskillcampus.com/" },
+  { title: "Mini Guides & Cheat Sheets", url: "https://prephq.theiotacademy.co/blog/" },
+  { title: "Project Library", url: "https://github.com/prepHQbyTIA" },
 ];
 
 const projects = [
@@ -360,7 +360,7 @@ export default function Home() {
             {exploreData.map((item, index) => (
               <div className="item" key={index}>
                 <p>{item.title}</p>
-                <Link to="/" className="arrowbtn">
+                <Link to={`${item.url}`} className="arrowbtn" target="_blank" rel="noopener noreferrer">
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

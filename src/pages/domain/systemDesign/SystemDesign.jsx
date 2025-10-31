@@ -2,12 +2,13 @@
 import '../domain.css'
 
 import { SmartToolsSuite } from '../../../pages/home/SmartTools'
+
 import DomainBannerImg from '../../../assets/img/domains/data_science_banner.png';
-import HeroSectionBG from '/src/assets/img/domains/hero_section_background.png'
 import '../../home/home.css'
+import HeroSectionBG from '/src/assets/img/domains/hero_section_background.png'
 import DomainContactForm from '../../../components/DomainContactForm';
 
-const Domain = () => {
+const SystemDesign = () => {
     return (
         <div className="domain-page">
 
@@ -19,9 +20,10 @@ const Domain = () => {
                 }} ></div>
                 <section className="hero-section container" style={{ padding: "0 80px" }}>
                     <div className="hero-content">
-                        <h1 className="hero-title">Your Embedded & IoT Launchpad 🚀</h1>
+                        <h1 className="hero-title">Your Data Science Launchpad</h1>
                         <p className="hero-description">
-                            Kickstart your Embedded Systems and IoT journey here. Learn, build, and secure your ideal job with our straightforward guides and hands-on tutorials.
+                            Start your Data Science journey right here. Learn, practice, and land your dream job
+                            with our easy-to-follow guides and tutorials.
                         </p>
                     </div>
                     <div className="hero-illustration">
@@ -35,9 +37,11 @@ const Domain = () => {
             <section className="what-is-ds">
                 <div className="container data_science_main_text_container">
                     <div className="what-is-content">
-                        <h2 className="section-title">What is Embedded Systems and IoT?</h2>
+                        <h2 className="section-title">What is Data Science?</h2>
                         <p className="section-description">
-                            Embedded Systems and IoT are about creating smart devices that interact with the world. Imagine tiny computers inside everyday gadgets, like a smart thermostat or fitness tracker, that sense, process, and connect data. It combines hardware (like microcontrollers), software programming, and networking to make things automated and connected.
+                            Data Science is all about using data to solve real-world problems. Think of it like
+                            being a detective! You collect clues (data), analyze them, and use them to make smart
+                            decisions or predictions. It mixes skills from programming, math, and business knowledge
                         </p>
                     </div>
 
@@ -47,13 +51,13 @@ const Domain = () => {
                             <h3 className="trend-title">What's Happening Now?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>AI on Devices:</strong> Edge computing powers real-time AI on sensors.
+                                    <strong>AI Everywhere:</strong> Tools like ChatGPT show how smart AI is.
                                 </li>
                                 <li>
-                                    <strong>Connected Everything:</strong> 5G links billions of IoT devices.
+                                    <strong>Big Data Tools:</strong> Companies use Spark and cloud platforms to manage big data.
                                 </li>
                                 <li>
-                                    <strong>Security Focus:</strong> Protecting devices from cyber threats is vital.
+                                    <strong>Ethics Matter:</strong> People make sure AI is fair and not biased.
                                 </li>
                             </ul>
                         </div>
@@ -62,16 +66,16 @@ const Domain = () => {
                     <div className='trends-grid'>
                         <div className="trend-card">
                             <div className="trend-badge">Future Trends:</div>
-                            <h3 className="trend-title">Where is it Going?</h3>
+                            <h3 className="trend-title">Where is Data Science Going?</h3>
                             <ul className="trend-list">
                                 <li>
-                                    <strong>Tiny AI Chips:</strong> Smarter, faster wearables and drones.
+                                    <strong>More Automation:</strong> Machines will do simple data work.
                                 </li>
                                 <li>
-                                    <strong>Sustainable IoT:</strong> Energy-efficient, eco-friendly tech.
+                                    <strong>Edge AI:</strong> AI will run on phones and sensors for quick results.
                                 </li>
                                 <li>
-                                    <strong>Edge-to-Cloud:</strong> Seamless data flow for intelligent ecosystems.
+                                    <strong>Data Mesh:</strong> Teams will easily share and use data together.
                                 </li>
                             </ul>
                         </div>
@@ -88,7 +92,8 @@ const Domain = () => {
                             <div className="resource-content">
                                 <h4>Learn Step-by-Step</h4>
                                 <p>
-                                    Want to grasp a new microcontroller? Our tutorials simplify tough concepts into bite-sized steps. No prior hardware experience required!
+                                    Need to master a new tool? Our tutorials break down complex topics into small,
+                                    easy steps. You don't need to be a coding genius to start!
                                 </p>
                             </div>
                             <button className="resource-btn">Explore All Tutorials</button>
@@ -99,7 +104,8 @@ const Domain = () => {
                             <div className="resource-content">
                                 <h4>Practice for Your Dream Job</h4>
                                 <p>
-                                    Ditch the uncertainty! We've gathered the top common and challenging questions from leading tech firms in embedded and IoT roles.
+                                    Stop guessing what they'll ask! We've collected the most common and tricky
+                                    interview questions from top tech companies.
                                 </p>
                             </div>
                             <button className="resource-btn">Start Interview Prep</button>
@@ -110,7 +116,8 @@ const Domain = () => {
                             <div className="resource-content">
                                 <h4>Quick Answers, Fast Learning</h4>
                                 <p>
-                                  Our Mini-Guides are concise cheat sheets on key topics. Ideal for rapid refreshers or grabbing the basics on the go.
+                                    Our Mini-Guides are short, focused cheat sheets on single topics. Perfect for a
+                                    quick review or when you just need the essentials.
                                 </p>
                             </div>
                             <button className="resource-btn">View Cheat Sheets</button>
@@ -121,7 +128,8 @@ const Domain = () => {
                             <div className="resource-content">
                                 <h4>Build Your Portfolio</h4>
                                 <p>
-                                   Hands-on is the way to excel! Dive into our guided projects to create real embedded devices and IoT prototypes that wow employers.
+                                    The best way to learn is by doing! Work through our guided projects to build an
+                                    impressive portfolio that hiring managers will love.
                                 </p>
                             </div>
                             <button className="resource-btn">Start a Project</button>
@@ -132,7 +140,8 @@ const Domain = () => {
                             <div className="resource-content">
                                 <h4>Your Path from Zero to Hired</h4>
                                 <p>
-                                   Overwhelmed by where to begin? Our Learning Map lays out a clear route, from basic circuits to advanced IoT deployments and job-ready skills.
+                                    Feeling lost? Our Learning Map guides you step-by-step, from your first line of
+                                    code to a clear career roadmap."
                                 </p>
                             </div>
                             <button className="resource-btn">See the Full Roadmap</button>
@@ -150,18 +159,15 @@ const Domain = () => {
                     <p className="tools-subheading">
                         Make your learning and interview prep easier with these smart tools.
                     </p>
-
                     <SmartToolsSuite />
-
-                    
                 </div>
             </section>
 
             {/* Contact Form Section */}
-        <DomainContactForm/>
+                <DomainContactForm/>
         </div>
     );
 };
 
-export default Domain;
+export default SystemDesign;
 
